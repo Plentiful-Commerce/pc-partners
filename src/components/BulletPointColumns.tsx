@@ -74,7 +74,7 @@ const BulletPointColumns: React.FC<BulletPointColumnsProps> = ({
             flexWrap: "wrap",
           }}
         >
-          {columns.map((col, idx) => (
+          {columns.map((col) => (
             <div key={col.heading} style={{ flex: "1 1 350px", minWidth: 300 }}>
               <h3
                 style={{
@@ -87,14 +87,11 @@ const BulletPointColumns: React.FC<BulletPointColumnsProps> = ({
               </h3>
               <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
                 {col.items.map(
-                  (
-                    item: {
-                      title: string;
-                      description: string;
-                      icon?: React.ReactNode;
-                    },
-                    i: number
-                  ) => (
+                  (item: {
+                    title: string;
+                    description: string;
+                    icon?: React.ReactNode;
+                  }) => (
                     <li
                       key={item.title}
                       style={{

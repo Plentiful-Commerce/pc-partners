@@ -165,7 +165,6 @@ export default function AgencyPartnerPage() {
         }}
         features={features}
         painPoints={painPoints}
-        formAction={process.env.NEXT_PUBLIC_FORM_ENDPOINT ?? "#"}
         bulletPointColumns={bulletPointColumns}
         partnershipsInAction={{
           title: "Our Partnerships in Action",

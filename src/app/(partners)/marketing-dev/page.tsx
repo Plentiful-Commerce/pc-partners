@@ -87,7 +87,6 @@ export default function MarketingDevPage() {
             "Launch blazing-fast sites while you focus on strategy & design.",
         }}
         features={features}
-        formAction={process.env.NEXT_PUBLIC_FORM_ENDPOINT ?? "#"}
         bulletPointColumns={bulletPointColumns}
         featuresHeading="The Dev Partner That Makes You Look Brilliant"
         featuresSubheading="We empower you to deliver exceptional results for your e-commerce clients."

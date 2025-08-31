@@ -13,7 +13,6 @@ import { useEffect } from "react";
 import Head from "next/head";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
-import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import React from "react";
 import BulletPointColumns from "@/components/BulletPointColumns";
@@ -57,7 +56,6 @@ export interface LandingProps {
   processHeading?: string;
   processSubheading?: string;
   processColumns?: MultiColumnItem[];
-  formAction: string;
   painPoints?: { icon: React.ReactNode; title: string; text: string }[];
   bulletPointColumns?: BulletPointColumnsData;
   partnershipsInAction?: {
@@ -71,7 +69,6 @@ export default function LandingTemplate({
   metaDescription,
   hero,
   features,
-  formAction,
   painPoints,
   bulletPointColumns,
   partnershipsInAction,
@@ -92,9 +89,9 @@ export default function LandingTemplate({
         encodeURIComponent(window.location.href);
 
       setTimeout(() => {
-        // @ts-ignore since this comes from iframe-resizer
+        //@ts-expect-error ddd
         if (window.iFrameResize) {
-          // @ts-ignore
+          // @ts-expect-error aaa
           window.iFrameResize(
             {
               heightCalculationMethod: "min",
@@ -124,6 +121,7 @@ export default function LandingTemplate({
       );
     }
   }, []);
+
   return (
     <>
       <Head>
