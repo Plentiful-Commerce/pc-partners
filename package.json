@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next export",
-    "build:static": "next build && next export"
+    "export": "output: export"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
