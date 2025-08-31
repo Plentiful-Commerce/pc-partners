@@ -14,13 +14,13 @@ export default function Header() {
             {/* Left Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
               <Link
-                href="#"
+                href="https://plentifulcommerce.com/services"
                 className="text-gray-700 hover:text-[rgb(182,107,53)] transition-colors font-medium text-[22px]"
               >
                 SERVICES
               </Link>
               <Link
-                href="#"
+                href="https://plentifulcommerce.com/category/case-studies/"
                 className="text-gray-700 hover:text-[rgb(182,107,53)] transition-colors font-medium text-[22px]"
               >
                 CASE STUDIES
@@ -46,19 +46,19 @@ export default function Header() {
             {/* Right Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
               <Link
-                href="#"
+                href="https://plentifulcommerce.com/portfolio"
                 className="text-gray-700 hover:text-[rgb(182,107,53)] transition-colors font-medium text-[22px]"
               >
                 PORTFOLIO
               </Link>
               <Link
-                href="#"
+                href="https://plentifulcommerce.com/blog/"
                 className="text-gray-700 hover:text-[rgb(182,107,53)] transition-colors font-medium text-[22px]"
               >
                 BLOG
               </Link>
               <Link
-                href="#"
+                href="https://plentifulcommerce.com/contact"
                 className="text-gray-700 hover:text-[rgb(182,107,53)] transition-colors font-medium text-[22px]"
               >
                 CONTACT
