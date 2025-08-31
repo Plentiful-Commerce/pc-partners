@@ -12,7 +12,6 @@ import { useEffect } from "react";
 
 import Head from "next/head";
 import { motion } from "framer-motion";
-import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import React from "react";
 import BulletPointColumns from "@/components/BulletPointColumns";
@@ -164,7 +163,9 @@ export default function LandingTemplate({
                   });
                 }}
               >
-                <div style={{ paddingTop: 5 }}>Let's Grow Your Agency</div>
+                <div style={{ paddingTop: 5 }}>
+                  Let&lsquo;s Grow Your Agency
+                </div>
               </Button>
             </div>
           </div>
