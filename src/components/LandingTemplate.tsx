@@ -164,10 +164,7 @@ export default function LandingTemplate({
                   });
                 }}
               >
-                <div style={{ paddingTop: 1 }} className="md:pt-0.5">
-                  Claim My Free Agency Growth Session
-                </div>
-                <ArrowRight className="icon" size={20} color="white" />
+                <div style={{ paddingTop: 5 }}>Let's Grow Your Agency</div>
               </Button>
             </div>
           </div>
@@ -296,7 +293,6 @@ export default function LandingTemplate({
             {/* The actual iframe */}
             <iframe
               id="moxie-marketing--seo-agency-white-label-form"
-              allowTransparency={true}
               style={{
                 padding: 0,
                 margin: 0,

@@ -8,7 +8,7 @@ export const metadata = {
     "Tired of sloppy code and missed deadlines? Get a scalable, on-time white-label Shopify partner. We build. You scale. Your clients win.",
 };
 
-export default function AgencyPartnerPage() {
+export default function MarketingDevPage() {
   const features = [
     {
       icon: <Clock className="h-8 w-8 text-[#B86B2B]" />, // Reclaim Your Time
@@ -31,7 +31,7 @@ export default function AgencyPartnerPage() {
     {
       icon: <Zap className="h-8 w-8 text-[#B86B2B]" />,
       title: "Plug Into Your System",
-      text: "We onboard into your existing tools- Slack, Asana, Trello, ClickUp, or Monday. Prefer to keep it external? Use our simple ticketing system for new requests.",
+      text: "We onboard into your existing tools like Slack, Asana, Trello, ClickUp, or Monday. Prefer to keep it external? Use our simple ticketing system for new requests.",
     },
     {
       icon: <Briefcase className="h-8 w-8 text-[#B86B2B]" />,

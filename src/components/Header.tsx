@@ -29,7 +29,10 @@ export default function Header() {
 
             {/* Center Logo */}
             <div className="flex-1 flex justify-center md:flex-none">
-              <Link href="/" className="flex items-center">
+              <Link
+                href="https://plentifulcommerce.com/"
+                className="flex items-center"
+              >
                 <Image
                   src="/plentiful-commerce-logo-full-color-rgb-2000px_72ppi.png"
                   alt="Plentiful Commerce - Shopify Development"
